@@ -1,0 +1,35 @@
+/* components */
+.header {
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header ol {
+    display: flex;
+}
+
+.header ol li {
+    padding-left: 30px;
+}
+
+.header ol li:first-child {
+    padding-left: 0px;
+}
+
+.header ol li a {
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: 400;
+    
+}
+
+
+
+.footer {
+    color: white;
+}
+
+/* utils */
